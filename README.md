@@ -15,3 +15,5 @@ Please follow below steps for using this Project
 
 
 Note: This is very early stage of my prject, so please feel free to suggestions on this
+
+pre requisite- Python should be installed. source- https://www.python.org/downloads/
