@@ -39,11 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
 # The following apps are required:
-    #'django.contrib.auth', #already mentioned above
-    #'django.contrib.messages', #already mentioned
     'django.contrib.sites',
     #'social_django'
-
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
@@ -281,9 +278,8 @@ SOCIALACCOUNT_PROVIDERS = {
         # (``socialaccount`` app) containing the required client
         # credentials, or list them here:
         'APP': {
-            #'client_id': '802265588816-c9ic5c8i5a6mh9af2te7h5ch5i87rvlm.apps.googleusercontent.com',
+
             'client_id':'802265588816-j8jb4o8rqc2ui8eliq9alo9ndojr93g3.apps.googleusercontent.com',
-            #'secret' : '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',
             'secret' : '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',
             'key': '',
             'scopes' : 'https://www.googleapis.com/auth/drive.metadata.readonly' #self
